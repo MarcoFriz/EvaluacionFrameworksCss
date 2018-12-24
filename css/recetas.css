@@ -1,0 +1,74 @@
+body{ 
+  background-color :  white;
+  background-image :  url("../img/comida.png");
+  background-repeat :  no-repeat;
+  background-position :  center;
+  background-size :  cover; 
+}
+
+div.main{ 
+  background :  #00AEFF66; 
+}
+
+.img-responsive{ 
+  max-width :  100%;
+  height :  auto; 
+}
+
+article img{ 
+  max-height :  100%; 
+}
+
+header{ 
+  background :  #00AEFF;
+  color :  white;
+  box-shadow :  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+aside{ 
+  margin-top :  15px;
+  background :  #92d4ff7A;
+  padding :  15px;
+  color : #382e88; 
+}
+
+aside a{ 
+  color :  #002b48; 
+}
+
+section{ 
+  background :  #1779BA77;
+  margin-top :  15px;
+  0 : ; 
+}
+
+section .callout{ 
+  background :  #64b5f6;
+  padding-top :  0;
+  margin-top :  5px;
+  color :  #382e88;
+  box-shadow :  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.thumbnail{ 
+  border-color :  #a8cdea;
+  box-shadow :  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+section h3{ 
+  padding :  4px;
+  margin-bottom :  0;
+  box-shadow :  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+section h3 small{ 
+  color :  #382e88; 
+}
+
+.comentario-cont{ 
+  padding :  5px;
+  margin-right :  10px;
+  margin-left :  -10px;
+  background-color :  white;
+  border-radius :  5px 5px 5px 0px; 
+}

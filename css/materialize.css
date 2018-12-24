@@ -1,0 +1,45 @@
+.barra-superior{ 
+  min-height :  4rem !important; 
+}
+
+.barra-superior-container{ 
+  margin-bottom :  0 !important; 
+}
+
+.barra-superior-botones{ 
+  margin-top :  1rem !important; 
+}
+
+.logo-img{ 
+  max-height :  80px;
+  margin-top :  0.5rem; 
+}
+
+.grupos{ 
+  min-height :  50rem !important; 
+}
+
+.publicaciones{ 
+  min-height :  17rem !important;
+  padding :  2rem !important; 
+}
+
+.publicaciones:first-child{ 
+  min-height :  7rem !important; 
+}
+
+.noticias{ 
+  min-height :  50rem !important;
+  padding :  0.5rem;
+  margin-top :  1rem !important; 
+}
+
+.noticia-img{ 
+  border :  0.6rem solid #ff9800;
+  border-radius :  5px; 
+}
+
+.chat{ 
+  padding :  0 !important;
+  min-height :  25rem !important; 
+}

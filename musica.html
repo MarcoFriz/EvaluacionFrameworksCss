@@ -1,0 +1,116 @@
+<!doctype html">
+<html>
+	<head>
+		<meta charset='utf-8'></meta>
+		<title>Mi Música Favorita</title>
+		<link rel='icon' href='img/logo.png' type='image/png' sizes='any'></link>
+		<meta name='viewport' content='width=device-width, initial-scale=1'></meta>
+		<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+		<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'></link>
+		<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+		<link href='https://use.fontawesome.com/releases/v5.0.6/css/all.css' rel='stylesheet'></link>
+		<link href='css/musica.css' rel='stylesheet' type='text/css' media='screen,projection'></link>
+	</head>
+	<body>
+		<div class='container'>
+			<header class='row'>
+				<img class='logo' src='img/logo.png'></img>
+				<ul class='nav nav-pills pull-right redes-sociales'>
+					<li class='active'>
+						<a class='nav-item' href='https://facebook.com/SnailHillGames' target='_blank'>
+							<i class='fab fa-facebook'></i>
+						</a>
+					</li>
+					<li class='active'>
+						<a class='nav-item' href='https://twitter.com/snail_hillgames' target='_blank'>
+							<i class='fab fa-twitter'></i>
+						</a>
+					</li>
+					<li class='active'>
+						<a class='nav-item' href='https://www.instagram.com/snail_hill_games/' target='_blank'>
+							<i class='fab fa-instagram'></i>
+						</a>
+					</li>
+				</ul>
+			</header>
+			<div class='row'>
+				<nav class='navbar navbar-default'>
+					<ul class='nav navbar-nav nav-justified navbar-justified'>
+						<li class='active'>
+							<a href='musica.html'>Inicio</a>
+						</li>
+						<li>
+							<a href='musica.html?'>Música</a>
+						</li>
+						<li>
+							<a href='artistas.html'>Artistas</a>
+						</li>
+						<li>
+							<a href='letras.html'>Letras</a>
+						</li>
+						<li>
+							<a href='recetas.html'>Recetas</a>
+						</li>
+						<li>
+							<a href='turismo.html'>Turismo</a>
+						</li>
+					</ul>
+				</nav>
+				<section class='col-sm-12 col-md-9 container contenido'>
+					<article class='col-sm-12'>
+						<h3>Linkin Park</h3>
+						<div class='row'>
+							<img class='img-post pull-left col-sm-4 img-responsive' src='img/movie_1.jpg'></img>
+							<div class='post col-sm-8'>La mejor banda del mundo, lastima que se suicido Chester u.u</div>
+						</div>
+						<form class='-horizontal clearfix -coment form' role='form'>
+							<div class='form-group'>
+								<label class='text-right col-sm-1' for>
+									<i class='glyphicon glyphicon-user'></i>&nbsp;
+								</label>
+								<div class='col-sm-11 input-group'>
+									<textarea class='form-control' name placeholder='Dejame tu comentario'></textarea>
+									<span class='input-group-addon btn btn-primary' role='button' type='submit' onclic='alert('hola')'>Enviar</span>
+								</div>
+							</div>
+						</form>
+					</article>
+					<article class='col-sm-12'>
+						<h3 class=' text-right'>System Of A Down</h3>
+						<div class='row'>
+							<img class='img-post pull-right col-sm-4 img-responsive' src='img/movie_2.jpg'></img>
+							<div class='post col-sm-8'>Esta banda tiene temas muy buenos, como 'Toxicity' en la que el baterista se luce con su performance</div>
+						</div>
+						<form class='-horizontal clearfix -coment form' role='form'>
+							<div class='form-group'>
+								<label class='text-right col-sm-1' for>
+									<i class='glyphicon glyphicon-user'></i>&nbsp;
+								</label>
+								<div class='col-sm-11 input-group'>
+									<textarea class='form-control' name placeholder='Dejame tu comentario'></textarea>
+									<span class='input-group-addon btn btn-primary' role='button' type='submit' onclic='alert('hola')'>Enviar</span>
+								</div>
+							</div>
+						</form>
+					</article>
+				</section>
+				<aside class='col-sm-12 col-md-3 container right-side'>
+					<form role='form'>
+						<div class='input-group'>
+							<input id='search' class='form-control' name='search' placeholder='Buscar'></input>
+							<span class='input-group-btn'>
+								<button class='btn btn-default' type='submit'>
+									<i class='fas fa-search'></i>&nbsp;
+								</button>
+							</span>
+						</div>
+					</form>
+					<div class='list-group'>
+						<a class='list-group-item' href='?search=Linkin Park'>Linkin Park</a>
+						<a class='list-group-item' href='?search=System Of A Down'>System Of A Down</a>
+					</div>
+				</aside>
+			</div>
+		</div>
+	</body>
+</html>

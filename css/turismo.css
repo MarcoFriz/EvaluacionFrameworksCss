@@ -1,0 +1,23 @@
+.imagenes img{ 
+  margin :  15px; 
+}
+
+.imagenes{ 
+  margin-right :  25; 
+}
+
+.imagenes .der img{ 
+  transform :  rotate(-5deg); 
+}
+
+.imagenes .izq img{ 
+  transform :  rotate(5deg); 
+}
+
+body{ 
+  background-color :  green;
+  background-image :  url(../img/concepcion.jpg);
+  background-repeat :  no-repeat;
+  background-position :  center;
+  background-size :  cover; 
+}

@@ -1,0 +1,48 @@
+header{ 
+  background-color :  orange; 
+}
+
+header.row{ 
+  position :  relative;
+  box-shadow :  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.logo{ 
+  max-height :  200px; 
+}
+
+.redes-sociales{ 
+  position :  absolute;
+  margin :  10px;
+  bottom :  0;
+  right :  0; 
+}
+
+nav.navbar.navbar-default{ 
+  box-shadow :  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.navbar-justified{ 
+  display :  table; 
+}
+
+.navbar-justified>li{ 
+  float :  none;
+  width :  auto; 
+}
+
+section{ 
+  background :  #f8f8f8;
+  border-radius :  10px; 
+}
+
+article{ 
+  background :  #e7e7e7;
+  border-radius :  5px;
+  box-shadow :  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin :  10px auto; 
+}
+
+.form-coment{ 
+  margin-top :  15px; 
+}
